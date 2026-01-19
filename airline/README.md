@@ -16,6 +16,12 @@ This project contains SQL scripts for managing airline data.
 - MySQL
 - MySQL Workbench
 
+## Data used
+- customer.csv
+- passengers_on_flights.csv
+- routes.csv
+- ticket_details.csv
+
 ## Screenshots
 ![Screenshot1](Screenshot%201.png)
 ![Screenshot2](Screenshot%202.png)
