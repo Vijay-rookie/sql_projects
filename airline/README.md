@@ -15,3 +15,6 @@ This project contains SQL scripts for managing airline data.
 ## Tools
 - MySQL
 - MySQL Workbench
+
+## Screenshots
+![output]
