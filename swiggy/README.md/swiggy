@@ -6,7 +6,7 @@ The objective is to design a **star-schema data warehouse** and perform **busine
 
 This project is built to showcase **SQL skills for Data Analytics / Business Analytics roles**.
 
----
+
 
 ## Database Design
 The database follows a **star schema** with one fact table and multiple dimension tables.
@@ -23,14 +23,14 @@ The database follows a **star schema** with one fact table and multiple dimensio
 - **dim_category** – food categories  
 - **dim_dish** – dish-level details  
 
----
+
 
 ## Entity Relationship (ER) Structure
 - One **fact table** connected to multiple **dimension tables**
 - Foreign keys link fact table to dimension tables
 - Designed for efficient analytical queries
 
----
+
 
 ## Analytical Queries Included
 This project answers key business questions such as:
@@ -42,15 +42,14 @@ This project answers key business questions such as:
 - Average ratings by category
 - Cuisine and restaurant performance analysis
 
----
+
 
 ## Tools & Technologies
-- **SQL Server (SSMS)**
-- **T-SQL**
+- SQL Server (SSMS)
 - Relational Database Concepts
 - Star Schema / Dimensional Modeling
 
----
+
 
 ## Screenshots
 
