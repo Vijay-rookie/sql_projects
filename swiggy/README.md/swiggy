@@ -1,1 +1,57 @@
+# Swiggy SQL Analytics Project
+
+Project Overview
+This project demonstrates end-to-end **SQL-based data modeling and analysis** using Swiggy food delivery data.  
+The objective is to design a **star-schema data warehouse** and perform **business-driven analytical queries** to extract insights related to orders, revenue, dishes, and categories.
+
+This project is built to showcase **SQL skills for Data Analytics / Business Analytics roles**.
+
+---
+
+## Database Design
+The database follows a **star schema** with one fact table and multiple dimension tables.
+
+### Fact Table
+- **fact_swiggy_orders**
+  - Stores transactional order-level data
+  - Measures: `Price_INR`, `Rating`, `Order_Date`
+
+### Dimension Tables
+- **dim_date** – date-related attributes  
+- **dim_location** – city and state details  
+- **dim_restaurant** – restaurant information  
+- **dim_category** – food categories  
+- **dim_dish** – dish-level details  
+
+---
+
+## Entity Relationship (ER) Structure
+- One **fact table** connected to multiple **dimension tables**
+- Foreign keys link fact table to dimension tables
+- Designed for efficient analytical queries
+
+---
+
+## Analytical Queries Included
+This project answers key business questions such as:
+
+- Total number of orders
+- Total revenue generated
+- Most ordered dishes
+- Category-wise performance
+- Average ratings by category
+- Cuisine and restaurant performance analysis
+
+---
+
+## Tools & Technologies
+- **SQL Server (SSMS)**
+- **T-SQL**
+- Relational Database Concepts
+- Star Schema / Dimensional Modeling
+
+---
+
+## Screenshots
+
 
